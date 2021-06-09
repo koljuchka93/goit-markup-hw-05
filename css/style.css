@@ -152,6 +152,8 @@ body {
   line-height: 1.19;
   color: var(--font-heading-color);
   margin-right: 93px;
+  animation-duration: 2000ms;
+  animation-iteration-count: 1;
 }
 /* decorate line */
 /* .current::after {
