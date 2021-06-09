@@ -551,8 +551,8 @@ body {
 .address {
   font-style: normal;
 }
-.mail-link,
-.tel-link {
+.footer-mail-link,
+.footer-tel-link {
   color: rgba(255, 255, 255, 0.6);
 }
 /* footer-social-icons */
