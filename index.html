@@ -82,21 +82,23 @@
     <!-- MAIN CONTENT -->
     <main>
       <!-- SECTION ONE - HERO -->
-
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-text">
             Эффективные решения<br />
             для вашего бизнеса
           </h1>
-          <button class="modal-btn animate__zoomIn" type="button">
+          <button
+            class="modal-btn animate__zoomIn"
+            type="button"
+            data-modal-open
+          >
             Заказать услугу
           </button>
         </div>
       </section>
 
       <!-- SECTION TWO - OUR WORK -->
-
       <section class="section our-work">
         <div class="container">
           <ul class="our-work-list list">
@@ -507,5 +509,18 @@
         </div>
       </div>
     </footer>
+
+    <!-- MODAL WINDOW -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="close-btn-icon" width="11" heigth="11">
+            <use href="./images/sprite.svg#close-btn-icon"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- JAVASCRIPTS ADD -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
